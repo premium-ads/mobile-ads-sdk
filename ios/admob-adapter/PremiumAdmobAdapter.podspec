@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PremiumAdmobAdapter'
   s.version          = '2.2.6'
-  s.summary          = 'The Leading Mobile Advertising Technology Platfor'
+  s.summary          = 'The Leading Mobile Advertising Technology Platform'
   s.description      = <<-DESC
                       Monetize & Promote Your Apps\niOS adapter for Admob
                        DESC
