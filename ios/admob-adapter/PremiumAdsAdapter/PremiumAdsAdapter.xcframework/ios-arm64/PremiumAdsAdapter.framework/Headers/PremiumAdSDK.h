@@ -14,7 +14,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "GADMediationAdapterPremiumAds.h"
-#define premiumAdSDKVersion  @"2.2.5"
+#define premiumAdSDKVersion  @"2.2.6"
 
 
 @interface PremiumAdSDK : NSObject
