@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PremiumAdsGoogleAdapter'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'The Leading Mobile Advertising Technology Platform'
   s.description      = <<-DESC
                       Monetize & Promote Your Apps\niOS adapter for Google AdMob/Ad Manager v2
@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   }
   s.vendored_frameworks = 'ios/admob-adapter-v2/PremiumAdsGoogleAdapter/PremiumAdsGoogleAdapter.xcframework'
   s.documentation_url = 'https://docs.premiumads.net/docs/google-admob'
-  s.dependency 'Google-Mobile-Ads-SDK', '~> 11.0'
+  s.dependency 'Google-Mobile-Ads-SDK'
 end
