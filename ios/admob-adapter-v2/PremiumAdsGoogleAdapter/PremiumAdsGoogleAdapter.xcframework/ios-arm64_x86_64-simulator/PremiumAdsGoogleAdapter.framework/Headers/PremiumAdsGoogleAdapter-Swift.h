@@ -370,7 +370,6 @@ extern "C" {
 
 #if defined(__OBJC__)
 
-@class GADMediationServerConfiguration;
 @protocol GADAdNetworkExtras;
 @class GADMediationBannerAdConfiguration;
 @class GADMediationInterstitialAdConfiguration;
@@ -380,7 +379,6 @@ extern "C" {
 SWIFT_CLASS_NAMED("PremiumAdsAdapter")
 @interface PremiumAdsAdapter : NSObject <GADMediationAdapter>
 + (void)setDebug:(BOOL)enabled;
-+ (void)setUpWithConfiguration:(GADMediationServerConfiguration * _Nonnull)configuration completionHandler:(GADMediationAdapterSetUpCompletionBlock _Nonnull)completionHandler;
 + (GADVersionNumber)adSDKVersion SWIFT_WARN_UNUSED_RESULT;
 + (GADVersionNumber)adapterVersion SWIFT_WARN_UNUSED_RESULT;
 + (Class <GADAdNetworkExtras> _Nullable)networkExtrasClass SWIFT_WARN_UNUSED_RESULT;
@@ -772,7 +770,6 @@ extern "C" {
 
 #if defined(__OBJC__)
 
-@class GADMediationServerConfiguration;
 @protocol GADAdNetworkExtras;
 @class GADMediationBannerAdConfiguration;
 @class GADMediationInterstitialAdConfiguration;
@@ -782,7 +779,6 @@ extern "C" {
 SWIFT_CLASS_NAMED("PremiumAdsAdapter")
 @interface PremiumAdsAdapter : NSObject <GADMediationAdapter>
 + (void)setDebug:(BOOL)enabled;
-+ (void)setUpWithConfiguration:(GADMediationServerConfiguration * _Nonnull)configuration completionHandler:(GADMediationAdapterSetUpCompletionBlock _Nonnull)completionHandler;
 + (GADVersionNumber)adSDKVersion SWIFT_WARN_UNUSED_RESULT;
 + (GADVersionNumber)adapterVersion SWIFT_WARN_UNUSED_RESULT;
 + (Class <GADAdNetworkExtras> _Nullable)networkExtrasClass SWIFT_WARN_UNUSED_RESULT;

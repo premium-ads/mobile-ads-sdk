@@ -11,17 +11,17 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_inheritsConvenienceInitializers @objc(PremiumAdsAdapter) final public class PremiumAdsAdapter : ObjectiveC.NSObject, GoogleMobileAds.GADMediationAdapter {
+@_inheritsConvenienceInitializers @objc(PremiumAdsAdapter) final public class PremiumAdsAdapter : ObjectiveC.NSObject, GoogleMobileAds.MediationAdapter {
   @objc public static func setDebug(_ enabled: Swift.Bool)
-  @objc public static func setUpWith(_ configuration: GoogleMobileAds.GADMediationServerConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationAdapterSetUpCompletionBlock)
-  @objc public static func adSDKVersion() -> GoogleMobileAds.GADVersionNumber
-  @objc public static func adapterVersion() -> GoogleMobileAds.GADVersionNumber
-  @objc public static func networkExtrasClass() -> (any GoogleMobileAds.GADAdNetworkExtras.Type)?
-  @objc final public func loadBanner(for adConfiguration: GoogleMobileAds.GADMediationBannerAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationBannerLoadCompletionHandler)
-  @objc final public func loadInterstitial(for adConfiguration: GoogleMobileAds.GADMediationInterstitialAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationInterstitialLoadCompletionHandler)
-  @objc final public func loadRewardedAd(for adConfiguration: GoogleMobileAds.GADMediationRewardedAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationRewardedLoadCompletionHandler)
-  @objc final public func loadNativeAd(for adConfiguration: GoogleMobileAds.GADMediationNativeAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationNativeLoadCompletionHandler)
-  @objc final public func loadAppOpenAd(for adConfiguration: GoogleMobileAds.GADMediationAppOpenAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationAppOpenLoadCompletionHandler)
+  public static func setUpWith(_ configuration: GoogleMobileAds.MediationServerConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationAdapterSetUpCompletionBlock)
+  @objc public static func adSDKVersion() -> GoogleMobileAds.VersionNumber
+  @objc public static func adapterVersion() -> GoogleMobileAds.VersionNumber
+  @objc public static func networkExtrasClass() -> (any GoogleMobileAds.AdNetworkExtras.Type)?
+  @objc final public func loadBanner(for adConfiguration: GoogleMobileAds.MediationBannerAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationBannerLoadCompletionHandler)
+  @objc final public func loadInterstitial(for adConfiguration: GoogleMobileAds.MediationInterstitialAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationInterstitialLoadCompletionHandler)
+  @objc final public func loadRewardedAd(for adConfiguration: GoogleMobileAds.MediationRewardedAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationRewardedLoadCompletionHandler)
+  @objc final public func loadNativeAd(for adConfiguration: GoogleMobileAds.MediationNativeAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationNativeLoadCompletionHandler)
+  @objc final public func loadAppOpenAd(for adConfiguration: GoogleMobileAds.MediationAppOpenAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationAppOpenLoadCompletionHandler)
   @objc override dynamic public init()
   @objc deinit
 }
