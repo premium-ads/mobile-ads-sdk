@@ -1,0 +1,10 @@
+framework module PremiumAdsGoogleAdapter {
+  umbrella header "PremiumAdsGoogleAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module PremiumAdsGoogleAdapter.Swift {
+  header "PremiumAdsGoogleAdapter-Swift.h"
+}
