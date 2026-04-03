@@ -1033,7 +1033,7 @@
       "kind": "StringLiteral",
       "offset": 173,
       "length": 7,
-      "value": "\"1.0.0\""
+      "value": "\"1.0.5\""
     },
     {
       "filePath": "\/Users\/hailx\/Documents\/dev\/claude-code\/adtrue\/google-mediation-adapter\/ios\/PremiumAdsGoogleAdapter\/Sources\/PremiumAdsAdapter.swift",
