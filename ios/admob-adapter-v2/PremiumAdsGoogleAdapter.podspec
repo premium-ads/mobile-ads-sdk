@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PremiumAdsGoogleAdapter'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'The Leading Mobile Advertising Technology Platform'
   s.description      = <<-DESC
                       Monetize & Promote Your Apps\niOS adapter for Google AdMob/Ad Manager v2
