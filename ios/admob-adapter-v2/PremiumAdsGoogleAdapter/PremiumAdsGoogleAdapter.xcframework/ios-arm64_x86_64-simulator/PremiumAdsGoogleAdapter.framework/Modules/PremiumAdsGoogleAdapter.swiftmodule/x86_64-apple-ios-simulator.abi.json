@@ -488,6 +488,91 @@
           },
           {
             "kind": "Function",
+            "name": "loadRewardedInterstitialAd",
+            "printedName": "loadRewardedInterstitialAd(for:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MediationRewardedAdConfiguration",
+                "printedName": "GoogleMobileAds.MediationRewardedAdConfiguration",
+                "usr": "c:objc(cs)GADMediationRewardedAdConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any GoogleMobileAds.MediationRewardedAd)?, (any Swift.Error)?) -> (any GoogleMobileAds.MediationRewardedAdEventDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any GoogleMobileAds.MediationRewardedAdEventDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MediationRewardedAdEventDelegate",
+                        "printedName": "any GoogleMobileAds.MediationRewardedAdEventDelegate",
+                        "usr": "c:objc(pl)GADMediationRewardedAdEventDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "((any GoogleMobileAds.MediationRewardedAd)?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any GoogleMobileAds.MediationRewardedAd)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MediationRewardedAd",
+                            "printedName": "any GoogleMobileAds.MediationRewardedAd",
+                            "usr": "c:objc(pl)GADMediationRewardedAd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PremiumAdsGoogleAdapter@objc(cs)PremiumAdsAdapter(im)loadRewardedInterstitialAdForAdConfiguration:completionHandler:",
+            "mangledName": "$s23PremiumAdsGoogleAdapter0abD0C26loadRewardedInterstitialAd3for17completionHandlerySo012GADMediationfH13ConfigurationC_So0lfH13EventDelegate_pSgSo0lfH0_pSg_s5Error_pSgtctF",
+            "moduleName": "PremiumAdsGoogleAdapter",
+            "objc_name": "loadRewardedInterstitialAdForAdConfiguration:completionHandler:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "loadNativeAd",
             "printedName": "loadNativeAd(for:completionHandler:)",
             "children": [
@@ -763,6 +848,27 @@
             "mangledName": "$sSH"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PremiumAdsGoogleAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "PremiumAdsGoogleAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PremiumAdsGoogleAdapter"
       },
       {
         "kind": "Import",

@@ -20,6 +20,7 @@ import _SwiftConcurrencyShims
   @objc final public func loadBanner(for adConfiguration: GoogleMobileAds.MediationBannerAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationBannerLoadCompletionHandler)
   @objc final public func loadInterstitial(for adConfiguration: GoogleMobileAds.MediationInterstitialAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationInterstitialLoadCompletionHandler)
   @objc final public func loadRewardedAd(for adConfiguration: GoogleMobileAds.MediationRewardedAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationRewardedLoadCompletionHandler)
+  @objc final public func loadRewardedInterstitialAd(for adConfiguration: GoogleMobileAds.MediationRewardedAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationRewardedLoadCompletionHandler)
   @objc final public func loadNativeAd(for adConfiguration: GoogleMobileAds.MediationNativeAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationNativeLoadCompletionHandler)
   @objc final public func loadAppOpenAd(for adConfiguration: GoogleMobileAds.MediationAppOpenAdConfiguration, completionHandler: @escaping GoogleMobileAds.GADMediationAppOpenLoadCompletionHandler)
   @objc override dynamic public init()

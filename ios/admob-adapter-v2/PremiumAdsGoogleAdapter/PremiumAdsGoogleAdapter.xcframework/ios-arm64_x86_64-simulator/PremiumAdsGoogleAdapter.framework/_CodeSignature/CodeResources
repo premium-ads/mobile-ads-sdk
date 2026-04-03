@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PremiumAdsGoogleAdapter-Swift.h</key>
 		<data>
-		Nr6uTFAdH6LyRjm5+K92lpitdhk=
+		hgTuJ135Tq31+lYAyHKP4i0FSDA=
 		</data>
 		<key>Headers/PremiumAdsGoogleAdapter-umbrella.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/PremiumAdsGoogleAdapter.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		yVzeF+gb90b7z7YqePTzC8DHTGk=
+		1/Ev2g1HJ7D1bJzxqHtAgU/lUoE=
 		</data>
 		<key>Modules/PremiumAdsGoogleAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		baBxbrpaDnNZHGtjPYdNehVCOHk=
+		wdgNqbyOWkHG2+1VDJLYPfCua4Y=
 		</data>
 		<key>Modules/PremiumAdsGoogleAdapter.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/PremiumAdsGoogleAdapter.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		baBxbrpaDnNZHGtjPYdNehVCOHk=
+		wdgNqbyOWkHG2+1VDJLYPfCua4Y=
 		</data>
 		<key>Modules/PremiumAdsGoogleAdapter.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+is40daAjkOnsAt++/OTqM80JIA=
+		H6PiqoWsUccgVtYbkLN+Zs/isC0=
 		</data>
 		<key>Modules/PremiumAdsGoogleAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		yVzeF+gb90b7z7YqePTzC8DHTGk=
+		1/Ev2g1HJ7D1bJzxqHtAgU/lUoE=
 		</data>
 		<key>Modules/PremiumAdsGoogleAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FwhfpDCySoWyceo0Ve1c3eKQn6U=
+		6J1cd8rPlLIpFNkgsYzd8O2PjbA=
 		</data>
 		<key>Modules/PremiumAdsGoogleAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/PremiumAdsGoogleAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FwhfpDCySoWyceo0Ve1c3eKQn6U=
+		6J1cd8rPlLIpFNkgsYzd8O2PjbA=
 		</data>
 		<key>Modules/PremiumAdsGoogleAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Mg2KZYVBpQLldVXAyctesq/nvXY=
+		DpyCfkGbyp/aaPk2bMUE1QOKZDY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XKq8YVyUo57JtWtJITz1vtnAGmwWXtMjsa5kWByQ2HY=
+			TAGcGHjx+WgjBS/gJ/b+xPVzgWSTVWvS08OaPhW1nhw=
 			</data>
 		</dict>
 		<key>Headers/PremiumAdsGoogleAdapter-umbrella.h</key>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			loxXCOp4JcjRsvW1Hho2ag18Y4mV4q0Xm0TLas/zxUc=
+			ZjWpw5tVSGSeotBJRpNjPhjO10/ryvcQ0QQ0lEN3u/I=
 			</data>
 		</dict>
 		<key>Modules/PremiumAdsGoogleAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y5GWaldUivSEG/n8F60SMyNiS7oJ5y52i4PCrHrRP28=
+			m6G2Ka7kJe66CkYsiRvbXXP//a7cSMTExL/mgkrMYK8=
 			</data>
 		</dict>
 		<key>Modules/PremiumAdsGoogleAdapter.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y5GWaldUivSEG/n8F60SMyNiS7oJ5y52i4PCrHrRP28=
+			m6G2Ka7kJe66CkYsiRvbXXP//a7cSMTExL/mgkrMYK8=
 			</data>
 		</dict>
 		<key>Modules/PremiumAdsGoogleAdapter.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sj4yq9zKTi/Rf3P4i9biuUNk6hoJWCqVWdHYaUOQpyg=
+			5fkP2/nlgd7G3Pi2Wh/UV9jAjweAa/8YJPrlN0g33oI=
 			</data>
 		</dict>
 		<key>Modules/PremiumAdsGoogleAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			loxXCOp4JcjRsvW1Hho2ag18Y4mV4q0Xm0TLas/zxUc=
+			ZjWpw5tVSGSeotBJRpNjPhjO10/ryvcQ0QQ0lEN3u/I=
 			</data>
 		</dict>
 		<key>Modules/PremiumAdsGoogleAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DNeJX+W/MWMVyBe0eqATGcBuxCo5uMc0ijp8KjCT3zs=
+			hKp8YwnkfgSePgL/98mO5hU+QJXBXsmI63FsA8+ZRf4=
 			</data>
 		</dict>
 		<key>Modules/PremiumAdsGoogleAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DNeJX+W/MWMVyBe0eqATGcBuxCo5uMc0ijp8KjCT3zs=
+			hKp8YwnkfgSePgL/98mO5hU+QJXBXsmI63FsA8+ZRf4=
 			</data>
 		</dict>
 		<key>Modules/PremiumAdsGoogleAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kw92RztGNHUPa655BKbur5ZvN8Oyud1tV+h3t4ea/6M=
+			lPPNXarJWCZJtbSV9IhlEEo97YE0gjuujZth4oUdEkc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
